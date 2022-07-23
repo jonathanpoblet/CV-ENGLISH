@@ -1,0 +1,1006 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(237, 246, 252);
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 5px 7px 5px 50px;
+    background-color: rgb(237, 246, 252);
+    position:fixed;
+    z-index: 100;
+    top: 0;
+}
+
+.header-nav {
+    margin-top: 20px;
+}
+
+.header-nav-lista { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0%;
+}
+
+.header-nav-lista-elementos {
+    list-style: none;
+    padding: 2px 35px;
+    font-size: 17px;
+}
+
+.header-nav-lista-elementos-link {
+    text-decoration: none;
+    color: #000000 ;
+    text-shadow: 0.5px 0.5px grey;
+}
+
+.header-nav-lista-elementos-link:hover{
+    color: #000000 ;
+    text-decoration:underline;
+    opacity: .93;
+}
+
+
+.main { 
+    background-color: rgb(237, 246, 252);
+}
+
+
+
+.main-container-inicial {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.main-container-inicial-informacion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+
+.main-container-inicial-informacion-titulo{
+    margin-top: 200px;
+    font-size: 60px;
+    color: #111111;
+    text-shadow: 0.4px 0.4px grey;
+}
+
+.main-container-inicial-informacion-titulo-nombre{
+    color: rgb(74, 148, 209);
+}
+            
+.main-container-inicial-informacion-subtitulo{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #000000;
+    text-align: start;
+}
+
+.main-container-informacion-link{
+    text-decoration: none;
+}      
+
+.main-container-inicial-imagen{
+    width: 600px;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 220px;
+}
+
+.main-container-inicial-imagen-foto { 
+    width: 600px;
+    height: 600px;
+    border-radius: 60px;
+    border: rgb(255, 255, 255) 15px solid;
+    box-shadow: 0px -3px 10px 3px rgb(197, 196, 196);
+
+
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 350px;
+    background-color: rgb(104, 183, 247);
+}
+
+.descripcion-texto{
+    margin: 20px 100px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    align-self: center;
+    color: #ffffff;
+}
+
+
+
+
+.main-container-educacion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 160px;
+    padding-top: 140px;
+}
+
+.main-container-educacion-subtitulo{
+    font-size: 50px;
+    padding: 10px;
+    border:  rgb(104, 183, 247) 10px ridge;
+    background-color: rgb(245, 250, 253);
+}
+
+.main-container-educacion-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+
+}
+
+.main-container-educacion-info-lista{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-container-educacion-info-lista-item{
+    list-style:circle repeating-radial-gradient(white,rgb(104, 183, 247)) ;
+    font-size: 20px;
+    align-self: flex-start;
+    padding: 10px 25px;
+    margin-right: 20px;
+}
+
+.main-container-educacion-info-lista-foto{
+    width: 500px;
+    height: 400px;
+    border: #ffffff 15px solid;
+    box-shadow: 0px -3px 10px 3px rgb(197, 196, 196);
+}
+
+
+
+
+.main-container-conocimientos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 160px;
+    padding-top: 140px;
+}
+
+.main-container-conocimientos-subtitulo{
+    font-size: 50px;
+    padding: 10px;
+    border:  rgb(104, 183, 247) 10px ridge;
+    background-color: rgb(245, 250, 253);
+}
+
+.main-container-conocimientos-todos-foto{
+    width: 105px;
+    height: 105px;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 100%;
+    box-shadow: 0px -3px 10px 3px rgb(197, 196, 196);
+}
+
+
+
+
+
+.main-container-aptitudes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 160px;
+    padding-top: 140px;
+}
+
+.main-container-aptitudes-subtitulo{
+    font-size: 50px;
+    padding: 10px;
+    border:  rgb(104, 183, 247) 10px ridge;
+    background-color: rgb(245, 250, 253);
+}
+
+.main-container-aptitudes-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main-container-aptitudes-info-lista{
+    margin: 0px;
+}
+
+.main-container-aptitudes-info-lista-item{
+    list-style:circle repeating-radial-gradient(white,rgb(104, 183, 247)) ;
+    font-size: 20px;
+    align-self: center;
+    padding: 10px 25px;
+    margin-left: 45px;
+}
+
+.main-container-aptitudes-info-lista-foto{
+    width: 500px;
+    height: 400px;
+    border: #ffffff 15px solid;
+    box-shadow: 0px -3px 10px 3px rgb(197, 196, 196);
+    margin-left: 45px;
+}
+
+.main-container-trabajo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 160px;
+    padding-top: 140px;
+}
+
+.main-container-trabajo-subtitulo{
+    font-size: 50px;
+    padding: 10px;
+    border:  rgb(104, 183, 247) 10px ridge;
+    background-color: rgb(245, 250, 253);
+}
+
+.main-container-trabajo-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main-container-trabajo-columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-container-trabajo-info-transportista , .main-container-trabajo-info-vendedor{
+    font-size: 30px;
+    padding: 10px;
+
+    text-decoration: rgb(55, 157, 241) 3px underline;
+    text-align: center;
+}
+
+
+.main-container-trabajo-info-fecha{
+    text-align: center;
+    font-size: 17px;
+}
+
+.main-container-trabajo-info-transportista-logros , .main-container-trabajo-info-vendedor-logros{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main-container-trabajo-info-transportista-logros-todos , .main-container-trabajo-info-vendedor-logros-todos{
+    list-style:circle repeating-radial-gradient(white,rgb(104, 183, 247)) ;
+    font-size: 20px;
+    align-self: flex-start;
+    padding: 10px 25px;
+    margin-right: 20px;
+}
+
+
+.main-container-contacto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 160px;
+    padding-top: 140px;
+}
+
+.main-container-contacto-subtitulo{
+    font-size: 50px;
+    padding: 10px;
+    border:  rgb(104, 183, 247) 10px ridge;
+    background-color: rgb(245, 250, 253);
+}
+
+.main-container-contacto-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.main-container-contacto-info-informacion{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.footer1 { 
+    margin-top: 100px;
+    background-color: rgb(104, 183, 247);
+}
+.footer2 { 
+    background-color: rgb(76, 172, 252);
+}
+
+
+@media screen and (max-width:1300px) {
+    .header-nav-lista-elementos {
+        list-style: none;
+        padding: 2px 30px;
+        font-size: 16px;
+    }
+
+    .main-container-inicial-informacion {
+        margin-right: 30px;
+    }
+    
+    
+    .main-container-inicial-informacion-titulo{
+        margin-top: 190px;
+        font-size: 40px;
+        color: #111111;
+        text-shadow: 0.4px 0.4px grey;
+    }
+    
+       
+    .main-container-inicial-informacion-subtitulo{
+        font-size: 22px;
+    }
+    
+    
+    .main-container-inicial-imagen{
+        width: 450px;
+        height: 450px;
+        margin-left: 30px;
+        margin-top: 190px;
+    }
+    
+    .main-container-inicial-imagen-foto { 
+        width: 450px;
+        height: 450px;
+        border-radius: 60px;
+        border: rgb(255, 255, 255) 10px solid;
+        box-shadow: 0px -3px 10px 3px rgb(197, 196, 196);
+    
+    
+    }
+
+    .descripcion {
+        margin-top: 250px;
+    }
+    
+    .descripcion-texto{
+        margin: 15px 80px;
+        font-size: 15px;
+        line-height: 42px;
+    }
+    
+
+    .main-container-educacion{
+        margin-top: 160px;
+        padding-top: 140px;
+    }
+    
+    .main-container-educacion-subtitulo{
+        font-size: 40px;
+        padding: 10px;
+        border:  rgb(104, 183, 247) 10px ridge;
+        background-color: rgb(245, 250, 253);
+    }
+    
+    .main-container-educacion-info{
+        margin-top: 100px;
+
+    }
+    
+    .main-container-educacion-info-lista-item{
+        font-size: 16px;
+        padding: 10px 12px;
+        margin-right: 17px;
+    }
+    
+    .main-container-educacion-info-lista-foto{
+        width: 370px;
+        height: 270px;
+    }
+
+    .main-container-conocimientos{
+
+        margin-top: 160px;
+        padding-top: 140px;
+    }
+    
+    .main-container-conocimientos-subtitulo{
+        font-size: 40px;
+        padding: 10px;
+    }
+    
+    .main-container-conocimientos-todos-foto{
+        width: 95px;
+        height: 95px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .main-container-trabajo-subtitulo{
+        font-size: 40px;
+    }
+    .main-container-trabajo-info-transportista , .main-container-trabajo-info-vendedor{
+        font-size: 25px;
+        padding: 10px;
+    }
+    
+    
+    .main-container-trabajo-info-fecha{
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .main-container-trabajo-info-transportista-logros-todos , .main-container-trabajo-info-vendedor-logros-todos{
+        font-size: 16px;
+    }
+
+    .main-container-aptitudes{
+        margin-top: 160px;
+        padding-top: 140px;
+    }
+    
+    .main-container-aptitudes-subtitulo{
+        font-size: 40px;
+        padding: 10px;
+        border:  rgb(104, 183, 247) 10px ridge;
+        background-color: rgb(245, 250, 253);
+    }
+    
+    .main-container-aptitudes-info{
+        margin-top: 100px;
+
+    }
+
+    .main-container-aptitudes-info-lista-item{
+        font-size: 16px;
+        padding: 10px 12px;
+        margin-right: 17px;
+    }
+    
+    .main-container-aptitudes-info-lista-foto{
+        width: 370px;
+        height: 270px;
+    }
+
+    .main-container-contacto-subtitulo{
+        font-size: 40px;
+    }
+    
+    
+    .main-container-contacto-info-informacion{
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 25px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .header-nav-lista-elementos {
+        padding: 2px 20px;
+        font-size: 15px;
+    }
+
+    .main-container-inicial-informacion {
+        margin-right: 0px;
+    }
+    
+    
+    .main-container-inicial-informacion-titulo{
+        font-size: 30px;
+    }
+    
+       
+    .main-container-inicial-informacion-subtitulo{
+        font-size: 18px;
+    }
+    
+    
+    .main-container-inicial-imagen{
+        width: 350px;
+        height: 350px;
+    }
+    
+    .main-container-inicial-imagen-foto { 
+        width: 350px;
+        height: 350px;
+    }
+
+    .descripcion {
+        margin-top: 130px;
+    }
+    
+    .descripcion-texto{
+        margin: 15px 80px;
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    .main-container-educacion{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    
+    .main-container-educacion-subtitulo{
+        font-size: 25px;
+    }
+    
+    .main-container-educacion-info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 40px;
+        text-align: center;
+    
+    }   
+    .main-container-educacion-info-lista-item{
+        font-size: 15px;
+        padding: 10px 25px;
+        margin-right: 20px;
+        align-self: center;
+
+    }
+    
+    .main-container-educacion-info-lista-foto{
+        width: 320px;
+        height: 250px;
+        align-self: center;
+    }
+
+    .main-container-conocimientos{
+        margin-top: 160px;
+        padding-top: 120px;
+    }
+    
+    .main-container-conocimientos-subtitulo{
+        font-size: 25px;
+    }
+    
+    .main-container-conocimientos-todos-foto{
+        width: 75px;
+        height: 75px;
+        margin-top: 70px;
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+
+    .main-container-trabajo{
+        padding-top: 120px;
+    }
+    
+    .main-container-trabajo-subtitulo{
+        font-size: 25px;
+    }
+    
+    .main-container-trabajo-info{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .main-container-trabajo-info-transportista , .main-container-trabajo-info-vendedor{
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    
+    .main-container-trabajo-info-fecha{
+        font-size: 13px;
+    }
+    
+    .main-container-trabajo-info-transportista-logros-todos , .main-container-trabajo-info-vendedor-logros-todos{
+        font-size: 15px;
+    }
+
+    .main-container-aptitudes{
+        padding-top: 120px;
+    }
+    
+    .main-container-aptitudes-subtitulo{
+        font-size: 25px;
+    }
+    
+    .main-container-aptitudes-info{
+        flex-direction: column;
+        margin-top: 70px;
+
+
+    }
+
+    .main-container-aptitudes-info-lista-item{
+        font-size: 15px;
+    }
+    
+    .main-container-aptitudes-info-lista-foto{
+        width: 320px;
+        height: 250px;
+        align-self: center;
+        margin-bottom: 50px;
+        margin-left:0px ;
+    }
+
+    .main-container-contacto{
+        margin-top: 100px;
+        padding-top: 120px;
+    }
+
+    .main-container-contacto-subtitulo{
+        font-size: 25px;
+    }
+    
+    
+    .main-container-contacto-info-informacion{
+        font-size: 15px;
+    }
+
+}
+
+
+
+@media screen and (max-width:750px) {
+    .header-nav-lista-elementos {
+        padding: 2px 15px;
+        font-size: 15px;
+    }
+
+    .main-container-inicial {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .main-container-inicial-informacion-titulo{
+        font-size: 30px;
+        margin-top: 130px;
+    }
+    
+       
+    .main-container-inicial-informacion-subtitulo{
+        font-size: 18px;
+    }
+    
+    
+    .main-container-inicial-imagen{
+        width: 350px;
+        height: 350px;
+        margin: 0px;
+        margin-top: 40px;
+    }
+    
+    .main-container-inicial-imagen-foto { 
+        width: 350px;
+        height: 350px;
+    }
+
+    .descripcion {
+        margin-top: 130px;
+    }
+    
+    .descripcion-texto{
+        margin: 15px 50px;
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .main-container-educacion{
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    
+    .main-container-educacion-subtitulo{
+        font-size: 20px;
+        padding: 7px;
+        border:  rgb(104, 183, 247) 7px ridge;
+    }
+    
+    .main-container-educacion-info{
+        margin-top: 30px;
+    }   
+    .main-container-educacion-info-lista-item{
+        font-size: 13px;
+        padding: 10px 3px;
+        margin-right: 30px;
+
+    }
+    
+    .main-container-educacion-info-lista-foto{
+        width: 320px;
+        height: 250px;
+        align-self: center;
+    }
+
+    .main-container-conocimientos-todos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .main-container-conocimientos-subtitulo{
+        font-size: 20px;
+        padding: 7px;
+        border:  rgb(104, 183, 247) 7px ridge;
+    }
+    
+    .main-container-conocimientos-todos-foto{
+        width: 65px;
+        height: 65px;
+        margin-top: 60px;
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+
+    
+    .main-container-trabajo-subtitulo{
+        font-size: 20px;
+        padding: 7px;
+        border:  rgb(104, 183, 247) 7px ridge;
+    }
+    
+
+
+    .main-container-trabajo-info-transportista , .main-container-trabajo-info-vendedor{
+        font-size: 18px;
+    }
+    
+    
+    .main-container-trabajo-info-fecha{
+        font-size: 12px;
+    }
+    
+    .main-container-trabajo-info-transportista-logros-todos , .main-container-trabajo-info-vendedor-logros-todos{
+        font-size: 13px;
+    }
+
+    .main-container-aptitudes-subtitulo{
+        font-size: 20px;
+        padding: 7px;
+        border:  rgb(104, 183, 247) 7px ridge;
+    }
+
+    .main-container-aptitudes-info{
+        margin-top: 30px;
+    }
+
+    .main-container-aptitudes-info-lista-item{
+        font-size: 13px;
+    }
+
+    .main-container-aptitudes-info-lista-foto{
+        margin-bottom: 30px;
+    }
+    
+
+    .main-container-contacto-subtitulo{
+        font-size: 20px;
+        padding: 7px;
+        border:  rgb(104, 183, 247) 7px ridge;
+    }
+    
+    
+    .main-container-contacto-info-informacion{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .header-nav-lista-elementos {
+        padding: 2px 10px;
+        font-size: 13px;
+    }
+    .main-container-conocimientos-todos-foto{
+        width: 60px;
+        height: 60px;
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    } 
+}
+
+@media screen and (max-width:500px) {
+    .header{
+        padding-left: 7px;
+        justify-content: center;
+    }
+
+    .mobile-no {
+        display: none;
+    }
+
+    .main-container-inicial-informacion-titulo{
+        font-size: 30px;
+        margin-top: 130px;
+    }
+    
+       
+    .main-container-inicial-informacion-subtitulo{
+        font-size: 18px;
+    }
+    
+    
+    .main-container-inicial-imagen{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 270px;
+        height: 270px;
+        margin: 0px;
+        margin-top: 40px;
+    }
+    
+    .main-container-inicial-imagen-foto { 
+        width: 270px;
+        height: 270px;
+        align-self: center;
+    }
+
+    .descripcion {
+        margin-top: 130px;
+    }
+    
+    .descripcion-texto{
+        margin: 15px 20px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .main-container-educacion{
+        margin-top: 20px;
+    }
+    
+    .main-container-educacion-subtitulo{
+        font-size: 18px;
+        padding: 7px;
+        border:  rgb(104, 183, 247) 7px ridge;
+    }
+    
+    .main-container-educacion-info{
+        margin-top: 15px;
+    }   
+
+    
+    .main-container-educacion-info-lista-item{
+        font-size: 12px;
+        padding: 10px 3px;
+        margin-right: 30px;
+
+    }
+    
+    .main-container-educacion-info-lista-foto{
+        width: 270px;
+        height: 270px;
+        align-self: center;
+        border: #ffffff 10px solid;
+    }
+
+    .main-container-conocimientos{
+        margin-top: 60px;
+    }
+    
+    .main-container-conocimientos-subtitulo{
+        font-size: 18px;
+        padding: 7px;
+        border:  rgb(104, 183, 247) 7px ridge;
+    }
+    
+    .main-container-conocimientos-todos-foto{
+        width: 65px;
+        height: 65px;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .main-container-trabajo-subtitulo{
+        font-size: 18px;
+    }
+    
+
+
+    .main-container-trabajo-info-transportista , .main-container-trabajo-info-vendedor{
+        font-size: 16px;
+    }
+    
+    
+    .main-container-trabajo-info-fecha{
+        font-size: 12px;
+    }
+    
+    .main-container-trabajo-info-transportista-logros-todos , .main-container-trabajo-info-vendedor-logros-todos{
+        font-size: 12px;
+        padding: 10px 6px;
+    }
+
+
+    .main-container-aptitudes{
+        margin-top: 20px;
+    }
+    
+    .main-container-aptitudes-subtitulo{
+        font-size: 18px;
+        padding: 7px;
+        border:  rgb(104, 183, 247) 7px ridge;
+    }
+    
+    .main-container-aptitudes-info{
+        margin-top: 15px;
+    }   
+    .main-container-aptitudes-info-lista{
+        padding-left: 20px;
+    }
+    .main-container-aptitudes-info-lista-item{
+        font-size: 12px;
+        padding: 10px 3px;
+        margin-right: 30px;
+
+    }
+    .main-container-aptitudes-info-lista-foto{
+        width: 270px;
+        height: 270px;
+        border: #ffffff 10px solid;
+    }
+    .main-container-contacto{
+        margin-top: 30px;
+    }
+    .main-container-contacto-subtitulo{
+        font-size: 18px;
+    }
+
+    .main-container-contacto-info-informacion{
+        font-size: 12px;
+    }
+
+    .footer1{
+        margin-top: 40px;
+    }
+}
